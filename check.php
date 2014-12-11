@@ -1,4 +1,7 @@
 <?Php
+
+
+echo "dddd";
 if(!isset($_SESSION['userid'])){
 echo "<center><font face='Verdana' size='2' color=red>Sorry, Please <a href=login.php>login</a> and use this page </font></center>";
 exit;
